@@ -1,12 +1,9 @@
 .propImg{
-    height: 0px;
-    width: 0px;
+    height: 200px;
+    width: 200px;
 }
 .card{
-    height: 410px;
-    width: 250px;
+    height: 470px;
+    width: 300px;
     right: 15px;
-}
-.row{
-    padding-top: 6px;
 }
