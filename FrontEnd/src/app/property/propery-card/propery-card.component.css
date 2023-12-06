@@ -1,0 +1,12 @@
+.propImg{
+    height: 0px;
+    width: 0px;
+}
+.card{
+    height: 410px;
+    width: 250px;
+    right: 15px;
+}
+.row{
+    padding-top: 6px;
+}
