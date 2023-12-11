@@ -7,18 +7,32 @@ import { ProperyCardComponent } from './property/propery-card/propery-card.compo
 import { PropertyListComponent } from './property/property-list/property-list.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HousingService } from './services/housing.service';
+import {} from '@angular/common/'
+import { AddPropertyComponent } from './property/add-property/add-property.component';
+import {Routes,RouterModule} from '@angular/router'
+import { PropertyDetailComponent } from './property/property-detail/property-detail.component';
 
+const appRoutes:Routes = [
+  {path:'', component:PropertyListComponent},
+  {path:'rent-property', component:PropertyListComponent},
+  {path:'add-property', component:AddPropertyComponent},
+  {path:'property-detail/:id', component:PropertyDetailComponent}
+]
 @NgModule({
   declarations: [	
     AppComponent,
     ProperyCardComponent,
     PropertyListComponent,
-      NavBarComponent
+      NavBarComponent,
+      AddPropertyComponent,
+      PropertyDetailComponent
+      
    ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule.forRoot(appRoutes)
   ],
   providers: [
     HousingService
