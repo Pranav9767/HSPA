@@ -12,12 +12,12 @@ import { AddPropertyComponent } from './property/add-property/add-property.compo
 import {Routes,RouterModule} from '@angular/router'
 import { PropertyDetailComponent } from './property/property-detail/property-detail.component';
 
-const appRoutes:Routes = [
-  {path:'', component:PropertyListComponent},
-  {path:'rent-property', component:PropertyListComponent},
-  {path:'add-property', component:AddPropertyComponent},
-  {path:'property-detail/:id', component:PropertyDetailComponent}
-]
+// const appRoutes:Routes = [
+//   {path:'', component:PropertyListComponent},
+//   {path:'rent-property', component:PropertyListComponent},
+//   {path:'add-property', component:AddPropertyComponent},
+//   {path:'property-detail/:id', component:PropertyDetailComponent}
+// ]
 @NgModule({
   declarations: [	
     AppComponent,
@@ -32,7 +32,7 @@ const appRoutes:Routes = [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    RouterModule.forRoot(appRoutes)
+    // RouterModule.forRoot(appRoutes)
   ],
   providers: [
     HousingService
