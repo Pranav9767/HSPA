@@ -11,7 +11,7 @@ import {} from '@angular/common/'
 import { AddPropertyComponent } from './property/add-property/add-property.component';
 import {Routes,RouterModule} from '@angular/router'
 import { PropertyDetailComponent } from './property/property-detail/property-detail.component';
-
+import { FormsModule } from '@angular/forms'; 
 // const appRoutes:Routes = [
 //   {path:'', component:PropertyListComponent},
 //   {path:'rent-property', component:PropertyListComponent},
@@ -32,6 +32,7 @@ import { PropertyDetailComponent } from './property/property-detail/property-det
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule
     // RouterModule.forRoot(appRoutes)
   ],
   providers: [
