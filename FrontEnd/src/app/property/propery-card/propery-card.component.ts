@@ -10,7 +10,7 @@ export class ProperyCardComponent {
   @Input()
   
   property: IProperty = {
-    ID: 0,
+    ID: '',
     Name: '',
     Type: '',
     Price: 0,
