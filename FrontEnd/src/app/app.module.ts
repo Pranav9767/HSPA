@@ -22,6 +22,7 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+
 // const appRoutes:Routes = [
 //   {path:'', component:PropertyListComponent},
 //   {path:'rent-property', component:PropertyListComponent},

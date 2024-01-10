@@ -1,17 +1,20 @@
 .card{
-    top: 10px;
+    /* min-height: 400px;
+    width: 80%; */
+    top: 10px; 
     height: 490px;
     width: 80%;
     right: 15px;
     margin-bottom: 20px;
     column-gap: 20px;
     padding: 10px;
-    
+    left: 40px;
 }
 .card-img-wrapper{
     overflow: hidden;
     position: relative;
 }
+
 .card:hover img{
     transform: scale(1.2,1.2);
     transition-duration: 500ms;
